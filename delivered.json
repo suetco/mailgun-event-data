@@ -11,12 +11,12 @@
     ],
     "timestamp": 1521472262.9082,
     "storage": {
-      "url": "https:\/\/se.api.mailgun.net\/v3\/domains\/suet.co.app\/messages\/message_key",
+      "url": "https:\/\/se.api.mailgun.net\/v3\/domains\/suet.co\/messages\/message_key",
       "key": "message_key"
     },
     "envelope": {
       "sending-ip": "209.61.154.250",
-      "sender": "bob@suet.co.app",
+      "sender": "bob@suet.co",
       "transport": "smtp",
       "targets": "alice@example.com"
     },
@@ -39,8 +39,8 @@
     "message": {
       "headers": {
         "to": "Alice <alice@example.com>",
-        "message-id": "20130503182626.18666.16540@suet.co.app",
-        "from": "Bob <bob@suet.co.app>",
+        "message-id": "20130503182626.18666.16540@suet.co",
+        "from": "Bob <bob@suet.co>",
         "subject": "Test delivered webhook"
       },
       "attachments": [

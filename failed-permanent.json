@@ -12,7 +12,7 @@
     ],
     "timestamp": 1521233195.3756,
     "storage": {
-      "url": "https:\/\/se.api.mailgun.net\/v3\/domains\/suet.co.app\/messages\/message_key",
+      "url": "https:\/\/se.api.mailgun.net\/v3\/domains\/suet.co\/messages\/message_key",
       "key": "message_key"
     },
     "log-level": "error",
@@ -33,15 +33,15 @@
     },
     "recipient-domain": "example.com",
     "envelope": {
-      "sender": "bob@suet.co.app",
+      "sender": "bob@suet.co",
       "transport": "smtp",
       "targets": "alice@example.com"
     },
     "message": {
       "headers": {
         "to": "Alice <alice@example.com>",
-        "message-id": "20130503192659.13651.20287@suet.co.app",
-        "from": "Bob <bob@suet.co.app>",
+        "message-id": "20130503192659.13651.20287@suet.co",
+        "from": "Bob <bob@suet.co>",
         "subject": "Test permanent_fail webhook"
       },
       "attachments": [

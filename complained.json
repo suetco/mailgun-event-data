@@ -28,8 +28,8 @@
     "message": {
       "headers": {
         "to": "Alice <alice@example.com>",
-        "message-id": "20110215055645.25246.63817@suet.co.app",
-        "from": "Bob <bob@suet.co.app>",
+        "message-id": "20110215055645.25246.63817@suet.co",
+        "from": "Bob <bob@suet.co>",
         "subject": "Test complained webhook"
       },
       "attachments": [
