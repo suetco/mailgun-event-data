@@ -1,0 +1,65 @@
+{
+  "signature": {
+    "timestamp": "1534190556",
+    "token": "68f5e45cc3258acdeb5d9dba65ed9f2595c8a0dee3efe9c9af",
+    "signature": "252067c7f453e461dbc33c746f8470decadf70b4cd8b5edd8a72284055b4f04d"
+  },
+  "event-data": {
+    "tags": [
+      "my_tag_1",
+      "my_tag_2"
+    ],
+    "timestamp": 1521472262.9082,
+    "storage": {
+      "url": "https:\/\/se.api.mailgun.net\/v3\/domains\/suet.co.app\/messages\/message_key",
+      "key": "message_key"
+    },
+    "envelope": {
+      "sending-ip": "209.61.154.250",
+      "sender": "bob@suet.co.app",
+      "transport": "smtp",
+      "targets": "alice@example.com"
+    },
+    "recipient-domain": "example.com",
+    "id": "CPgfbmQMTCKtHW6uIWtuVe",
+    "campaigns": [
+
+    ],
+    "user-variables": {
+      "my_var_1": "Mailgun Variable #1",
+      "my-var-2": "awesome"
+    },
+    "flags": {
+      "is-routed": false,
+      "is-authenticated": true,
+      "is-system-test": false,
+      "is-test-mode": false
+    },
+    "log-level": "info",
+    "message": {
+      "headers": {
+        "to": "Alice <alice@example.com>",
+        "message-id": "20130503182626.18666.16540@suet.co.app",
+        "from": "Bob <bob@suet.co.app>",
+        "subject": "Test delivered webhook"
+      },
+      "attachments": [
+
+      ],
+      "size": 111
+    },
+    "recipient": "alice@example.com",
+    "event": "delivered",
+    "delivery-status": {
+      "tls": true,
+      "mx-host": "smtp-in.example.com",
+      "attempt-no": 1,
+      "description": "",
+      "session-seconds": 0.43319892883301,
+      "utf8": true,
+      "code": 250,
+      "message": "OK",
+      "certificate-verified": true
+    }
+  }
+}

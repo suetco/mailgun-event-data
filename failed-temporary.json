@@ -1,0 +1,68 @@
+{
+  "signature": {
+    "timestamp": "1534190798",
+    "token": "70ea94ef7bc6f3c0a1fa3495d11714322d484460e7cb1f760b",
+    "signature": "73fe33eed24d89d46fe7a0cd7480497f1eaea86f3a1952b4db33adf8334e17e8"
+  },
+  "event-data": {
+    "severity": "temporary",
+    "tags": [
+      "my_tag_1",
+      "my_tag_2"
+    ],
+    "timestamp": 1521472262.9082,
+    "storage": {
+      "url": "https:\/\/se.api.mailgun.net\/v3\/domains\/suet.co.app\/messages\/message_key",
+      "key": "message_key"
+    },
+    "log-level": "warn",
+    "event": "failed",
+    "campaigns": [
+
+    ],
+    "reason": "generic",
+    "user-variables": {
+      "my_var_1": "Mailgun Variable #1",
+      "my-var-2": "awesome"
+    },
+    "flags": {
+      "is-routed": false,
+      "is-authenticated": true,
+      "is-system-test": false,
+      "is-test-mode": false
+    },
+    "recipient-domain": "example.com",
+    "envelope": {
+      "sending-ip": "209.61.154.250",
+      "sender": "bob@suet.co.app",
+      "transport": "smtp",
+      "targets": "alice@example.com"
+    },
+    "message": {
+      "headers": {
+        "to": "Alice <alice@example.com>",
+        "message-id": "20130503182626.18666.16540@suet.co.app",
+        "from": "Bob <bob@suet.co.app>",
+        "subject": "Test delivered webhook"
+      },
+      "attachments": [
+
+      ],
+      "size": 111
+    },
+    "recipient": "alice@example.com",
+    "id": "Fs7-5t81S2ispqxqDw2U4Q",
+    "delivery-status": {
+      "tls": true,
+      "mx-host": "smtp-in.example.com",
+      "attempt-no": 1,
+      "description": "",
+      "session-seconds": 0.12817406654358,
+      "utf8": true,
+      "retry-seconds": 600,
+      "code": 452,
+      "message": "4.2.2 The email account that you tried to reach is over quota. Please direct\n4.2.2 the recipient to\n4.2.2  https:\/\/support.example.com\/mail\/?p=422",
+      "certificate-verified": true
+    }
+  }
+}

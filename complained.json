@@ -1,0 +1,43 @@
+{
+  "signature": {
+    "timestamp": "1534190793",
+    "token": "077d85f1a517c4985a1e258bfce1147c73259c22b7211e2258",
+    "signature": "78357b53601af53dac1d812bf67d6799bebe122d88e524f00e44be792bd2dd5d"
+  },
+  "event-data": {
+    "tags": [
+      "my_tag_1",
+      "my_tag_2"
+    ],
+    "timestamp": 1521233123.5013,
+    "envelope": {
+      "sending-ip": "173.193.210.33"
+    },
+    "log-level": "warn",
+    "id": "-Agny091SquKnsrW2NEKUA",
+    "campaigns": [
+
+    ],
+    "user-variables": {
+      "my_var_1": "Mailgun Variable #1",
+      "my-var-2": "awesome"
+    },
+    "flags": {
+      "is-test-mode": false
+    },
+    "message": {
+      "headers": {
+        "to": "Alice <alice@example.com>",
+        "message-id": "20110215055645.25246.63817@suet.co.app",
+        "from": "Bob <bob@suet.co.app>",
+        "subject": "Test complained webhook"
+      },
+      "attachments": [
+
+      ],
+      "size": 111
+    },
+    "recipient": "alice@example.com",
+    "event": "complained"
+  }
+}

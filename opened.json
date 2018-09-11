@@ -1,0 +1,44 @@
+{
+  "signature": {
+    "timestamp": "1534190701",
+    "token": "a816189ed35c8fcaffacb34ff7c26196da87b882c7312f1133",
+    "signature": "0f101d7c0daa2d05f83e1954f9aaba3c593b3f02a2431d51137f50618017eb20"
+  },
+  "event-data": {
+    "geolocation": {
+      "country": "US",
+      "region": "CA",
+      "city": "San Francisco"
+    },
+    "tags": [
+      "my_tag_1",
+      "my_tag_2"
+    ],
+    "ip": "50.56.129.169",
+    "recipient-domain": "example.com",
+    "id": "Ase7i2zsRYeDXztHGENqRA",
+    "campaigns": [
+
+    ],
+    "user-variables": {
+      "my_var_1": "Mailgun Variable #1",
+      "my-var-2": "awesome"
+    },
+    "log-level": "info",
+    "timestamp": 1521243339.8737,
+    "client-info": {
+      "client-name": "Chrome",
+      "client-os": "Linux",
+      "user-agent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.31 (KHTML, like Gecko) Chrome\/26.0.1410.43 Safari\/537.31",
+      "device-type": "desktop",
+      "client-type": "browser"
+    },
+    "message": {
+      "headers": {
+        "message-id": "20130503182626.18666.16540@suet.co"
+      }
+    },
+    "recipient": "alice@example.com",
+    "event": "opened"
+  }
+}
